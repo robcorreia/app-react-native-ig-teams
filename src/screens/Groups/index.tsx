@@ -19,7 +19,7 @@ export function Groups() {
         subtitle='Jogue com a sua turma'
       />
 
-      <FlatList
+      {/* <FlatList
         data={groups}
         keyExtractor={item => item}
         renderItem={({ item }) => <GroupCard title={item} />}
@@ -28,7 +28,7 @@ export function Groups() {
       />
       <Button
         title="Criar nova turma"
-      />
+      /> */}
 
     </Container>
   );
